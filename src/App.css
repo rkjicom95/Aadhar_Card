@@ -1,38 +1,206 @@
 .App {
   text-align: center;
+  margin-top: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 2px solid rgb(172, 170, 170);
+  background-color: beige;
 }
 
-.App-link {
-  color: #61dafb;
+label {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+}
+
+select {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+button:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+.aadhar-front-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.aadhar-front-card .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.aadhar-front-card img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.aadhar-front-card .text {
+  margin-left: 2rem;
+}
+
+.aadhar-front-card h2 {
+  font-size: 10px;
+  color: #000;
+  background-color: #de8b02;
+  padding: 0px;
+  margin: 1px;
+}
+
+.aadhar-front-card h3 {
+  font-size: 10px;
+  color: #000;
+  background-color: #2faa4c;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 2px;
+}
+.aadhar-front-details {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2px;
+  text-align: left;
+}
+.user-data {
+  margin-left: 10px;
+}
+.aadhar-front-details img {
+  height: 75px;
+  width: 75px;
+}
+.user-data h4 {
+  font-size: 10px;
+  color: #000;
+  margin-left: 10px;
+  margin: 0px;
+  font-weight: 500;
+}
+.front-vid-qr {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: end;
+  margin-right: 10px;
+}
+.front-vid-qr img {
+  height: 70px;
+  width: 70px;
+}
+.front-vid-qr-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-right: 12px;
+}
+.front-vid-qr-text h2 {
+  color: #000;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+.front-vid-qr-text h4 {
+  color: #000;
+  background-color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  margin: 0px;
+}
+.aadhar-front-card h1 {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0%;
+  padding: 0px;
+  letter-spacing: 1px;
+}
+.back-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.back-side-para p {
+  font-size: 10px;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  color: #000;
+  font-weight: 500;
+}
+.back-side-para p span {
+  font-size: 10px;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 600;
+  color: #000;
+}
+.back-side img {
+  height: 95px;
+  width: 95px;
+}
+.back-vid-qr-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-right: 12px;
+}
+.back-vid-qr-text h2 {
+  color: #000;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+.back-vid-qr-text h4 {
+  color: #000;
+  background-color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  margin: 0px;
+}
+.back-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.back-icon-text h6 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 8px;
+  color: #000;
+  font-weight: 500;
 }
